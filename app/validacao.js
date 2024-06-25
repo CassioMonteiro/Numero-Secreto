@@ -1,6 +1,6 @@
 function verificaChute(chute){
     let numero = +chute
-    numeroSecreto = 404
+    
     if(chuteInvalido(numero)){
         elementoChute.innerHTML += '<div>Valor inválido</div>'
         return
