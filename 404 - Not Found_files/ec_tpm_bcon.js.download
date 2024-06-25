@@ -1,0 +1,1 @@
+function httpGet(){var t=new XMLHttpRequest,e=Math.floor(1e5*Math.random()),n="//ec-tpm-404-"+e+".ac.bcon.ecdns.net/udp/"+e+".png";t.open("GET",n,!0),t.send()}httpGet(),setInterval(httpGet,1e4);
